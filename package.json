@@ -4,7 +4,9 @@
   "description": "ttt",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:module5": "mocha test\\spec\\CalcTest.spec.js",
+    "coverage": "nyc npm run test"
   },
   "keywords": [
     "mocha",
@@ -18,6 +20,9 @@
     "chai": "^4.3.4",
     "eslint": "^7.29.0",
     "eslint-config-google": "^0.14.0",
-    "mocha": "^9.0.1"
+    "mocha": "^9.0.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-screenshots": "^1.7.3",
+    "nyc": "^15.1.0"
   }
 }

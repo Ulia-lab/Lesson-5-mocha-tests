@@ -28,3 +28,4 @@ describe('Calculator positive scenario', function() {
     expect(validator.add(-1, 4)).to.be.equal(3);
   });
 });
+
