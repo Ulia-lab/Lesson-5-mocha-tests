@@ -1,0 +1,233 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-01T06:50:25.281Z",
+    "end": "2021-07-01T06:50:25.292Z",
+    "duration": 11,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3c33ee82-fb3c-4a1b-9618-5d5c5c0cdbf2",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+          "title": "Calculator positive scenario",
+          "fullFile": "C:\\Users\\Iuliia_Chupina\\Documents\\Test project\\test\\spec\\CalcTest.spec.js",
+          "file": "\\test\\spec\\CalcTest.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"Calculator positive scenario\"",
+              "fullTitle": "Calculator positive scenario \"before each\" hook in \"Calculator positive scenario\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = new Calculator();",
+              "err": {},
+              "uuid": "516ffc10-48b8-4c5d-a69f-8cf40d7de0b6",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"Calculator positive scenario\"",
+              "fullTitle": "Calculator positive scenario \"after each\" hook in \"Calculator positive scenario\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = null;",
+              "err": {},
+              "uuid": "68117125-f79c-40d6-a582-c9fc70c80552",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return 7 for 3+4",
+              "fullTitle": "Calculator positive scenario should return 7 for 3+4",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.add(4, 3)).to.be.equal(7);",
+              "err": {},
+              "uuid": "3285aeff-d08f-4788-b5bd-ebff064f3fcb",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 4 for 0 + 4",
+              "fullTitle": "Calculator positive scenario should return 4 for 0 + 4",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.add(0, 4)).to.be.equal(4);",
+              "err": {},
+              "uuid": "e59b65eb-54fd-4003-a944-5a42938a0adf",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 3 for -1 + 4",
+              "fullTitle": "Calculator positive scenario should return 3 for -1 + 4",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.add(-1, 4)).to.be.equal(3);",
+              "err": {},
+              "uuid": "32b91044-c2e6-4567-a02f-86b134dd3bb8",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 0 for 0 * 4",
+              "fullTitle": "Calculator positive scenario should return 0 for 0 * 4",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.multiply(0, 4)).to.be.equal(0);",
+              "err": {},
+              "uuid": "9db92ebd-852c-4c99-ad9d-d6d43453fd21",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 12 for 3 * 4",
+              "fullTitle": "Calculator positive scenario should return 12 for 3 * 4",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.multiply(3, 4)).to.be.equal(12);",
+              "err": {},
+              "uuid": "c2cb9a0b-f296-4bb9-a1bf-99e0ba45cc4d",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 3 for -1 * 4",
+              "fullTitle": "Calculator positive scenario should return 3 for -1 * 4",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.add(-1, 4)).to.be.equal(3);",
+              "err": {},
+              "uuid": "8989e5a7-3cce-4d9f-9637-857f77fed253",
+              "parentUUID": "d4310ba3-316c-4357-9f4b-b34f1d147b29",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3285aeff-d08f-4788-b5bd-ebff064f3fcb",
+            "e59b65eb-54fd-4003-a944-5a42938a0adf",
+            "32b91044-c2e6-4567-a02f-86b134dd3bb8",
+            "9db92ebd-852c-4c99-ad9d-d6d43453fd21",
+            "c2cb9a0b-f296-4bb9-a1bf-99e0ba45cc4d",
+            "8989e5a7-3cce-4d9f-9637-857f77fed253"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
